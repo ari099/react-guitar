@@ -15,7 +15,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <svg className="App-guitar" height={310} width={350}>
-          <SoundHole className="App-guitar-soundhole" />
+          <SoundHole className="App-guitar-soundhole"
+            x={170} y={155}
+            r={120} />
           
           <BridgeHole className="App-guitar-bridgehole" x={lineX} y={topBridgeY} />
           <BridgeHole className="App-guitar-bridgehole" x={lineX+30} y={topBridgeY} />

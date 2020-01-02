@@ -8,7 +8,10 @@ class SoundHole extends React.Component {
 
    render() {
       return (
-         <circle className={this.props.className} />
+         <circle className={this.props.className}
+          cx={this.props.x}
+          cy={this.props.y}
+          r={this.props.r} />
       )
    }
 }
