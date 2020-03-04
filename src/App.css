@@ -1,60 +1,37 @@
-.App {
-  text-align: center;
+body {
+  background: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-.App-header {
-  background-color: #c97405;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Codepen Pen Status */
+.pen-status {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+  font-family: 'JetBrains Mono';
   color: white;
 }
 
-.App-link {
-  color: #fbdf61;
+.Guitar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-.App-guitar {
-  /* border: 1px solid #1d1d1d; */
-}
-.App-guitar-soundhole {
-  fill: #1d1d1d;
+.Guitar-bridgehole {
   stroke: white;
+}
+.Guitar-soundhole {
+  fill: white;
+  stroke: #333;
   stroke-width: 5;
 }
-.App-guitar-bridgehole {
-  fill: #1d1d1d;
-  stroke: white;
+.Guitar-string {
+  stroke: gray;
+  stroke-width: 5;
+  cursor: pointer;
 }
-.App-guitar-string {
-  stroke: white;
-  stroke-width: 2px;
-}
-.App-guitar-chord-root {
-  font-family: 'Segoe UI Black';
-  font-size: 55pt;
-  text-align: center;
+.Guitar-string:hover {
+  stroke: lightgray;
 }
