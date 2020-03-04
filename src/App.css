@@ -22,6 +22,9 @@ body {
 .Guitar-bridgehole {
   stroke: white;
 }
+.Guitar-bridgehole-middle {
+  fill: gray;
+}
 .Guitar-soundhole {
   fill: white;
   stroke: #333;

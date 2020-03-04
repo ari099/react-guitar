@@ -48,9 +48,14 @@ const String = props => {
 
 const BridgeHole = props => {
   return (
-    <circle className="Guitar-bridgehole"
-      cx={props.x} cy={props.y}
-      r={7.5} />
+    <>
+      <circle className="Guitar-bridgehole"
+        cx={props.x} cy={props.y}
+        r={7.5} />
+      <circle className="Guitar-bridgehole-middle"
+        cx={props.x} cy={props.y}
+        r={2.5} />
+    </>
   );
 };
 
